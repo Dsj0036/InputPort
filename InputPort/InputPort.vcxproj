@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|PS3">
+      <Configuration>Debug</Configuration>
+      <Platform>PS3</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|PS3">
+      <Configuration>Release</Configuration>
+      <Platform>PS3</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCTargetsPath Condition="'$(VCTargetsPath12)' != '' and '$(VSVersion)' == '' and '$(VisualStudioVersion)' == ''">$(VCTargetsPath12)</VCTargetsPath>
+    <ProjectGuid>{047ADCDE-AE22-4B2F-91E4-027E235FA3F4}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|PS3'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>SNC</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|PS3'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>GCC</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <PropertyGroup Condition="'$(DebuggerFlavor)'=='PS3Debugger'" Label="OverrideDebuggerDefaults">
+    <!--LocalDebuggerCommand>$(TargetPath)</LocalDebuggerCommand-->
+    <!--LocalDebuggerCommandArguments></LocalDebuggerCommandArguments-->
+    <!--LocalDebuggerCommandLine>-r -e -m</LocalDebuggerCommandLine-->
+    <!--LocalRunCommandLine>-r</LocalRunCommandLine-->
+    <!--LocalTunerCommandLine></LocalTunerCommandLine-->
+    <!--LocalDebuggerFileServingDirectory>$(ProjectDir)</LocalDebuggerFileServingDirectory-->
+    <!--LocalDebuggerHomeDirectory>$(ProjectDir)</LocalDebuggerHomeDirectory-->
+    <!--LocalDebuggerProjectFile></LocalDebuggerProjectFile-->
+    <!--LocalDebuggerResetType>Soft</LocalDebuggerResetType-->
+    <!--LocalDebuggerClearTty>False</LocalDebuggerClearTty-->
+  </PropertyGroup>
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|PS3'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|PS3'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|PS3'">
+    <ClCompile>
+      <PreprocessorDefinitions>_DEBUG;__CELL_ASSERT__;%(PreprocessorDefinitions);</PreprocessorDefinitions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <CppLanguageStd>Cpp11</CppLanguageStd>
+      <AdditionalIncludeDirectories>C:\Users\debug\Documents\GitHub\PS3_CELL_UTIL;C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <SystemIncludeDirectories>C:\Users\root\source\repos\SCE\UndeviousClient\onyx_clean\include;%(SystemIncludeDirectories)</SystemIncludeDirectories>
+      <Branchless>Branchless2</Branchless>
+      <CompileAs>CompileAsCpp</CompileAs>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>C:\usr\local\cell\target\ppu\lib\libadec_stub.a;C:\usr\local\cell\target\ppu\lib\libatrac3multi_stub.a;C:\usr\local\cell\target\ppu\lib\libatrac3plus_stub.a;C:\usr\local\cell\target\ppu\lib\libaudio_stub.a;C:\usr\local\cell\target\ppu\lib\libc.a;C:\usr\local\cell\target\ppu\lib\libstdc++.a;C:\usr\local\cell\target\ppu\lib\libstdc++_stub.a;C:\usr\local\cell\target\ppu\lib\libc_stub.a;$(SCE_PS3_ROOT)\target\ppu\lib\libc_stub.a;C:\usr\local\cell\target\ppu\lib\libcamera_stub.a;C:\usr\local\cell\target\ppu\lib\libcelp8enc_stub.a;C:\usr\local\cell\target\ppu\lib\libcelpenc_stub.a;C:\usr\local\cell\target\ppu\lib\libcgb.a;C:\usr\local\cell\target\ppu\lib\libcgc.a;C:\usr\local\cell\target\ppu\lib\libcontrol_console_ppu.a;C:\usr\local\cell\target\ppu\lib\libcrashdump_stub.a;C:\usr\local\cell\target\ppu\lib\libcs.a;C:\usr\local\cell\target\ppu\lib\libdaisy_stub.a;C:\usr\local\cell\target\ppu\lib\libdbg.a;C:\usr\local\cell\target\ppu\lib\libdbgfont.a;C:\usr\local\cell\target\ppu\lib\libdbgfont_gcm.a;C:\usr\local\cell\target\ppu\lib\libdbgrsx.a;C:\usr\local\cell\target\ppu\lib\libdbg_gcm_method_check.a;C:\usr\local\cell\target\ppu\lib\libdbg_libio_stub.a;C:\usr\local\cell\target\ppu\lib\libdmux_stub.a;C:\usr\local\cell\target\ppu\lib\libface.a;C:\usr\local\cell\target\ppu\lib\libface_tracker.a;C:\usr\local\cell\target\ppu\lib\libfiber_stub.a;C:\usr\local\cell\target\ppu\lib\libfios.a;C:\usr\local\cell\target\ppu\lib\libfontFT_stub.a;C:\usr\local\cell\target\ppu\lib\libfontGcm.a;C:\usr\local\cell\target\ppu\lib\libfont_stub.a;C:\usr\local\cell\target\ppu\lib\libfreetypeTT_stub.a;C:\usr\local\cell\target\ppu\lib\libfreetype_stub.a;C:\usr\local\cell\target\ppu\lib\libfs_stub.a;C:\usr\local\cell\target\ppu\lib\libftp.a;C:\usr\local\cell\target\ppu\lib\libgcm_cmd.a;C:\usr\local\cell\target\ppu\lib\libgcm_cmdasm.a;C:\usr\local\cell\target\ppu\lib\libgcm_cmddbg.a;C:\usr\local\cell\target\ppu\lib\libgcm_gpad_stub.a;C:\usr\local\cell\target\ppu\lib\libgcm_pm.a;C:\usr\local\cell\target\ppu\lib\libgcm_sys_stub.a;C:\usr\local\cell\target\ppu\lib\libgem_stub.a;C:\usr\local\cell\target\ppu\lib\libgifdec_stub.a;C:\usr\local\cell\target\ppu\lib\libhead_tracker.a;C:\usr\local\cell\target\ppu\lib\libhttp_stub.a;C:\usr\local\cell\target\ppu\lib\libhttp_util_stub.a;C:\usr\local\cell\target\ppu\lib\libio_stub.a;C:\usr\local\cell\target\ppu\lib\libjpgdec_stub.a;C:\usr\local\cell\target\ppu\lib\libjpgenc_stub.a;C:\usr\local\cell\target\ppu\lib\libjson.a;C:\usr\local\cell\target\ppu\lib\libkey2char_stub.a;C:\usr\local\cell\target\ppu\lib\libl10n_stub.a;C:\usr\local\cell\target\ppu\lib\liblv2dbg_stub.a;C:\usr\local\cell\target\ppu\lib\liblv2_stub.a;C:\usr\local\cell\target\ppu\lib\libm.a;C:\usr\local\cell\target\ppu\lib\libmedi_stub.a;C:\usr\local\cell\target\ppu\lib\libmic_stub.a;C:\usr\local\cell\target\ppu\lib\libmixer.a;C:\usr\local\cell\target\ppu\lib\libmsmp3dec_ppu.a;C:\usr\local\cell\target\ppu\lib\libmsmp3dec_SPURS.a;C:\usr\local\cell\target\ppu\lib\libmstreamSPURSAT3.a;C:\usr\local\cell\target\ppu\lib\libmstreamSPURSMP3.a;C:\usr\local\cell\target\ppu\lib\libmstreamThreadAT3.a;C:\usr\local\cell\target\ppu\lib\libmstreamThreadMP3.a;C:\usr\local\cell\target\ppu\lib\libmt19937.a;C:\usr\local\cell\target\ppu\lib\libm_stub.a;C:\usr\local\cell\target\ppu\lib\libnetctl_stub.a;C:\usr\local\cell\target\ppu\lib\libnet_stub.a;C:\usr\local\cell\target\ppu\lib\libovis_stub.a;C:\usr\local\cell\target\ppu\lib\libpadfilter.a;C:\usr\local\cell\target\ppu\lib\libpamf_stub.a;C:\usr\local\cell\target\ppu\lib\libperf.a;C:\usr\local\cell\target\ppu\lib\libpngdec_stub.a;C:\usr\local\cell\target\ppu\lib\libpngenc_stub.a;C:\usr\local\cell\target\ppu\lib\libprof_stub.a;C:\usr\local\cell\target\ppu\lib\libpsutil.a;C:\usr\local\cell\target\ppu\lib\libpthread.a;C:\usr\local\cell\target\ppu\lib\libresc_stub.a;C:\usr\local\cell\target\ppu\lib\librtc_stub.a;C:\usr\local\cell\target\ppu\lib\librudp_stub.a;C:\usr\local\cell\target\ppu\lib\libsail_rec_stub.a;C:\usr\local\cell\target\ppu\lib\libsail_stub.a;C:\usr\local\cell\target\ppu\lib\libscream.a;C:\usr\local\cell\target\ppu\lib\libsheap_stub.a;C:\usr\local\cell\target\ppu\lib\libsnc.a;C:\usr\local\cell\target\ppu\lib\libsnd3.a;C:\usr\local\cell\target\ppu\lib\libspudll_stub.a;C:\usr\local\cell\target\ppu\lib\libspurs_jq_stub.a;C:\usr\local\cell\target\ppu\lib\libspurs_stub.a;C:\usr\local\cell\target\ppu\lib\libssc.a;C:\usr\local\cell\target\ppu\lib\libsscgpu.a;C:\usr\local\cell\target\ppu\lib\libssl_stub.a;C:\usr\local\cell\target\ppu\lib\libsync2_stub.a;C:\usr\local\cell\target\ppu\lib\libsync_stub.a;C:\usr\local\cell\target\ppu\lib\libsynth2.a;C:\usr\local\cell\target\ppu\lib\libsyscall.a;C:\usr\local\cell\target\ppu\lib\libsysmodule_stub.a;C:\usr\local\cell\target\ppu\lib\libsysutil_ap_stub.a;C:\usr\local\cell\target\ppu\lib\libsysutil_avc2_stub.a;C:\usr\local\cell\target\ppu\lib\libsysutil_avconf_ext_stub.a;C:\usr\local\cell\target\ppu\lib\libsysutil_bgdl_stub.a;C:\usr\local\cell\target\ppu\lib\libsysutil_cross_controller_stub.a;C:\usr\local\cell\target\ppu\lib\libsysutil_game_exec_stub.a;C:\usr\local\cell\target\ppu\lib\libsysutil_game_stub.a;C:\usr\local\cell\target\ppu\lib\libsysutil_imejp_stub.a;C:\usr\local\cell\target\ppu\lib\libsysutil_licensearea_stub.a;C:\usr\local\cell\target\ppu\lib\libsysutil_music_decode_stub.a;C:\usr\local\cell\target\ppu\lib\libsysutil_music_export_stub.a;C:\usr\local\cell\target\ppu\lib\libsysutil_music_stub.a;C:\usr\local\cell\target\ppu\lib\libsysutil_np2_stub.a;C:\usr\local\cell\target\ppu\lib\libsysutil_np_clans_stub.a;C:\usr\local\cell\target\ppu\lib\libsysutil_np_commerce2_stub.a;C:\usr\local\cell\target\ppu\lib\libsysutil_np_sns_stub.a;C:\usr\local\cell\target\ppu\lib\libsysutil_np_stub.a;C:\usr\local\cell\target\ppu\lib\libsysutil_np_trophy_stub.a;C:\usr\local\cell\target\ppu\lib\libsysutil_np_tus_stub.a;C:\usr\local\cell\target\ppu\lib\libsysutil_np_util_stub.a;C:\usr\local\cell\target\ppu\lib\libsysutil_oskdialog_ext_stub.a;C:\usr\local\cell\target\ppu\lib\libsysutil_photo_decode_stub.a;C:\usr\local\cell\target\ppu\lib\libsysutil_photo_export_stub.a;C:\usr\local\cell\target\ppu\lib\libsysutil_photo_import_stub.a;C:\usr\local\cell\target\ppu\lib\libsysutil_photo_stub.a;C:\usr\local\cell\target\ppu\lib\libsysutil_print_stub.a;C:\usr\local\cell\target\ppu\lib\libsysutil_rec_stub.a;C:\usr\local\cell\target\ppu\lib\libsysutil_remoteplay_stub.a;C:\usr\local\cell\target\ppu\lib\libsysutil_savedata_stub.a;C:\usr\local\cell\target\ppu\lib\libsysutil_screenshot_stub.a;C:\usr\local\cell\target\ppu\lib\libsysutil_search_stub.a;C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a;C:\usr\local\cell\target\ppu\lib\libsysutil_subdisplay_stub.a;C:\usr\local\cell\target\ppu\lib\libsysutil_sysconf_ext_stub.a;C:\usr\local\cell\target\ppu\lib\libsysutil_userinfo_stub.a;C:\usr\local\cell\target\ppu\lib\libsysutil_video_export_stub.a;C:\usr\local\cell\target\ppu\lib\libsysutil_video_upload_stub.a;C:\usr\local\cell\target\ppu\lib\libusbd_stub.a;C:\usr\local\cell\target\ppu\lib\libusbpspcm_stub.a;C:\usr\local\cell\target\ppu\lib\libvdec_stub.a;C:\usr\local\cell\target\ppu\lib\libvoice_stub.a;C:\usr\local\cell\target\ppu\lib\libvpost_stub.a;$(SCE_PS3_ROOT)\target\ppu\lib\libdbg_libio_stub.a;$(SN_PS3_PATH)\ppu\lib\sn\libsn.a;$(SCE_PS3_ROOT)\target\ppu\lib\libm.a;$(SCE_PS3_ROOT)\target\ppu\lib\libsysutil_np_trophy_stub.a;$(SCE_PS3_ROOT)\target\ppu\lib\libio_stub.a;$(SCE_PS3_ROOT)\target\ppu\lib\libsysutil_stub.a;$(SCE_PS3_ROOT)\target\ppu\lib\libsysmodule_stub.a;$(SCE_PS3_ROOT)\target\ppu\lib\libsyscall.a;$(SCE_PS3_ROOT)\target\ppu\lib\libgcm_sys_stub.a;$(SCE_PS3_ROOT)\host-win32\spu\lib\gcc\spu-lv2\4.1.1\libgcc.a;$(SCE_PS3_ROOT)\target\ppu\lib\libpadfilter.a;C:\usr\local\cell\target\ppu\lib\hash\libmd5.a;C:\Program Files (x86)\SN Systems\PS3\ppu\lib\sn\libsn.a;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|PS3'">
+    <ClCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions);</PreprocessorDefinitions>
+      <OptimizationLevel>Level2</OptimizationLevel>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="prx.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="game\client.h" />
+    <ClInclude Include="game\client.hpp" />
+    <ClInclude Include="game\console_ui_controller.h" />
+    <ClInclude Include="game\console_ui_controller.hpp" />
+    <ClInclude Include="game\define.h" />
+    <ClInclude Include="game\forge.hpp" />
+    <ClInclude Include="game\framestat.h" />
+    <ClInclude Include="game\fui.h" />
+    <ClInclude Include="game\game.h" />
+    <ClInclude Include="game\game.hpp" />
+    <ClInclude Include="game\gl.h" />
+    <ClInclude Include="game\gl.hpp" />
+    <ClInclude Include="game\keyboard.h" />
+    <ClInclude Include="game\keyboard_controller.h" />
+    <ClInclude Include="game\keycode_helper.h" />
+    <ClInclude Include="game\managed_input_feature.h" />
+    <ClInclude Include="game\minecraft.hpp" />
+    <ClInclude Include="game\minecraft\AddPlayerPacket.h" />
+    <ClInclude Include="game\minecraft\alterations.h" />
+    <ClInclude Include="game\minecraft\attaching_bot.h" />
+    <ClInclude Include="game\minecraft\AttributteMap.h" />
+    <ClInclude Include="game\minecraft\AxisAlignedBoundingBox.h" />
+    <ClInclude Include="game\minecraft\Block.h" />
+    <ClInclude Include="game\minecraft\BlockPos.h" />
+    <ClInclude Include="game\minecraft\BufferedImage.h" />
+    <ClInclude Include="game\minecraft\cInput.hpp" />
+    <ClInclude Include="game\minecraft\CMinecraftApp.h" />
+    <ClInclude Include="game\minecraft\color.hpp" />
+    <ClInclude Include="game\minecraft\CompoundTag.h" />
+    <ClInclude Include="game\minecraft\CompoundTag.hpp" />
+    <ClInclude Include="game\minecraft\CStorage.h" />
+    <ClInclude Include="game\minecraft\DamageSource.h" />
+    <ClInclude Include="game\minecraft\debugBuffImage.h" />
+    <ClInclude Include="game\minecraft\Difficulty.h" />
+    <ClInclude Include="game\minecraft\Direction.h" />
+    <ClInclude Include="game\minecraft\entity_ticking.h" />
+    <ClInclude Include="game\minecraft\EquipmentSlot.h" />
+    <ClInclude Include="game\minecraft\FJ_FuiNode.h" />
+    <ClInclude Include="game\minecraft\game.h" />
+    <ClInclude Include="game\minecraft\GameTransitionParams.hpp" />
+    <ClInclude Include="game\minecraft\GameType.h" />
+    <ClInclude Include="game\minecraft\gl.h" />
+    <ClInclude Include="game\minecraft\gui_component.h" />
+    <ClInclude Include="game\minecraft\header_elf_addr.h" />
+    <ClInclude Include="game\minecraft\Inventory.h" />
+    <ClInclude Include="game\minecraft\ItemCooldowns.h" />
+    <ClInclude Include="game\minecraft\ItemInstance.h" />
+    <ClInclude Include="game\minecraft\IUIScene_AbstractContainerMenu.hpp" />
+    <ClInclude Include="game\minecraft\IUIScene_StartGame.h" />
+    <ClInclude Include="game\minecraft\Level.h" />
+    <ClInclude Include="game\minecraft\LevelBlockHelper.h" />
+    <ClInclude Include="game\minecraft\LevelGenerationOptions.h" />
+    <ClInclude Include="game\minecraft\LivingEntity.h" />
+    <ClInclude Include="game\minecraft\LocalPlayer.h" />
+    <ClInclude Include="game\minecraft\local_player.h" />
+    <ClInclude Include="game\minecraft\MainGroup.h" />
+    <ClInclude Include="game\minecraft\Material.h" />
+    <ClInclude Include="game\minecraft\math.h" />
+    <ClInclude Include="game\minecraft\MiniGameDef.h" />
+    <ClInclude Include="game\minecraft\MobEffectInstance.h" />
+    <ClInclude Include="game\minecraft\MobEffectInstance.hpp" />
+    <ClInclude Include="game\minecraft\Multilist.h" />
+    <ClInclude Include="game\minecraft\MultiPlayerGameMode.h" />
+    <ClInclude Include="game\minecraft\MultiplayerLocalPlayer.h" />
+    <ClInclude Include="game\minecraft\patched_set_world_border.h" />
+    <ClInclude Include="game\minecraft\Player.h" />
+    <ClInclude Include="game\minecraft\Random.hpp" />
+    <ClInclude Include="game\minecraft\RegistryLocation.h" />
+    <ClInclude Include="game\minecraft\RemotePlayer.h" />
+    <ClInclude Include="game\minecraft\scene\ControlsMenu.h" />
+    <ClInclude Include="game\minecraft\scene\UIScene_HelpAndOptions.hpp" />
+    <ClInclude Include="game\minecraft\scene\UIScene_MainMenu.hpp" />
+    <ClInclude Include="game\minecraft\Screen.h" />
+    <ClInclude Include="game\minecraft\ServerPlayer.h" />
+    <ClInclude Include="game\minecraft\ServerPlayerGamemode.h" />
+    <ClInclude Include="game\minecraft\shared_ptr\reversed_ptrs.h" />
+    <ClInclude Include="game\minecraft\sky.h" />
+    <ClInclude Include="game\minecraft\speed.h" />
+    <ClInclude Include="game\minecraft\struct.h" />
+    <ClInclude Include="game\minecraft\syscall.h" />
+    <ClInclude Include="game\minecraft\Texture.h" />
+    <ClInclude Include="game\minecraft\UIControl.h" />
+    <ClInclude Include="game\minecraft\UIControl_Label.h" />
+    <ClInclude Include="game\minecraft\UIGroup.h" />
+    <ClInclude Include="game\minecraft\UILayer.h" />
+    <ClInclude Include="game\minecraft\UIScene.h" />
+    <ClInclude Include="game\minecraft\UIScene_PauseMenu.h" />
+    <ClInclude Include="game\minecraft\UIString.h" />
+    <ClInclude Include="game\minecraft\UI_SceneHUD.h" />
+    <ClInclude Include="game\minecraft\user_event.h" />
+    <ClInclude Include="game\minecraft\variables.h" />
+    <ClInclude Include="game\mouse.h" />
+    <ClInclude Include="game\opds.h" />
+    <ClInclude Include="game\PatchedHud.h" />
+    <ClInclude Include="game\patched_fullscreen.h" />
+    <ClInclude Include="game\patched_input.h" />
+    <ClInclude Include="game\patched_input_tick.h" />
+    <ClInclude Include="game\patched_input_tick.hpp" />
+    <ClInclude Include="game\patched_scene_navigation.h" />
+    <ClInclude Include="game\safer_init.hpp" />
+    <ClInclude Include="game\minecraft\tesselator.h" />
+    <ClInclude Include="game\tex.h" />
+    <ClInclude Include="game\vectors.h" />
+  </ItemGroup>
+  <Import Condition="'$(ConfigurationType)' == 'Makefile' and Exists('$(VCTargetsPath)\Platforms\$(Platform)\SCE.Makefile.$(Platform).targets')" Project="$(VCTargetsPath)\Platforms\$(Platform)\SCE.Makefile.$(Platform).targets" />
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="NewFilter1">
+      <UniqueIdentifier>{2a525875-976a-4986-a6c3-a183030f4736}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="game\opds.h" />
+    <ClInclude Include="game\safer_init.hpp" />
+    <ClInclude Include="game\managed_input_feature.h" />
+    <ClInclude Include="game\vectors.h" />
+    <ClInclude Include="game\keyboard_controller.h" />
+    <ClInclude Include="game\game.h" />
+    <ClInclude Include="game\keycode_helper.h" />
+    <ClInclude Include="game\keyboard.h" />
+    <ClInclude Include="game\forge.hpp" />
+    <ClInclude Include="game\game.hpp" />
+  </ItemGroup>
+</Project>

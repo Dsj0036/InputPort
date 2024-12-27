@@ -1,0 +1,802 @@
+﻿  prx.cpp
+C:\Users\debug\Documents\GitHub\PS3_CELL_UTIL\System.h(926,9): warning 68: integer conversion resulted in a change of sign
+  
+C:\Users\debug\Documents\GitHub\PS3_CELL_UTIL\System.h(976,1): warning 176: subscript out of range
+  
+C:\Users\debug\Documents\GitHub\PS3_CELL_UTIL\System.h(981,1): warning 176: subscript out of range
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\Buffer.h(77,16): warning 447: constant "size" is not used in declaring the parameter types of function template "System::Buffer<T>::Buffer<size>(T *)"
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\memory.h(168,28): warning 447: constant "size" is not used in declaring the parameter types of function template "System::Memory::Memory<T,size>(T *)"
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\collection.h(78,19): warning 499: declaration of "T" hides template parameter
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\collection.h(162,3): warning 942: missing return statement at end of non-void function "System::Collections::StringToken::operator="
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\string.h(48,11): warning 178: variable "bytes" was declared but never referenced
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\string.h(281,11): warning 68: integer conversion resulted in a change of sign
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\string.h(284,11): warning 68: integer conversion resulted in a change of sign
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\string.h(432,11): warning 68: integer conversion resulted in a change of sign
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\string.h(436,11): warning 68: integer conversion resulted in a change of sign
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\string.h(443,2): warning 942: missing return statement at end of non-void function "System::Chars::convertToDynamic"
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\string.h(606,11): warning 68: integer conversion resulted in a change of sign
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\string.h(609,11): warning 68: integer conversion resulted in a change of sign
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\string.h(779,2): warning 942: missing return statement at end of non-void function "System::String::remove_at"
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\string.h(831,10): warning 68: integer conversion resulted in a change of sign
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\string.h(839,10): warning 68: integer conversion resulted in a change of sign
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\string.h(1258,8): warning 175: expression has no effect
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\console.h(21,2): warning 942: missing return statement at end of non-void function "System::SystemConsoleConcurrentPrinter::operator<<(const char *)"
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\console.h(42,12): warning 693: "tcsb::CStringBuilder::CStringBuilder(const tcsb::CStringBuilder &)" (declared at line 66 of "C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\raw_tcsb.h"), required for copy that was eliminated, is inaccessible
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\console.h(86,12): warning 693: "tcsb::CStringBuilder::CStringBuilder(const tcsb::CStringBuilder &)" (declared at line 66 of "C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\raw_tcsb.h"), required for copy that was eliminated, is inaccessible
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\Buffer.h(12,7): warning 1700: class "System::Buffer<char>" has virtual functions but non-virtual destructor
+            C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\Buffer.h(43470,20): detected during instantiation of class "System::Buffer<T> [with T=char]" at line 9
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\string_builder.h(130,19): warning 693: "tcsb::CStringBuilder::CStringBuilder(const tcsb::CStringBuilder &)" (declared at line 66 of "C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\raw_tcsb.h"), required for copy that was eliminated, is inaccessible
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\string_builder.h(136,19): warning 693: "tcsb::CStringBuilder::CStringBuilder(const tcsb::CStringBuilder &)" (declared at line 66 of "C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\raw_tcsb.h"), required for copy that was eliminated, is inaccessible
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\string_builder.h(155,54): warning 942: missing return statement at end of non-void function "System::Text::StringBuilder::operator<<(System::String &)"
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\string_builder.h(156,50): warning 942: missing return statement at end of non-void function "System::Text::StringBuilder::operator<<(int)"
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\string_builder.h(157,51): warning 942: missing return statement at end of non-void function "System::Text::StringBuilder::operator<<(bool)"
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\string_builder.h(158,52): warning 942: missing return statement at end of non-void function "System::Text::StringBuilder::operator<<(short)"
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\string_builder.h(159,52): warning 942: missing return statement at end of non-void function "System::Text::StringBuilder::operator<<(float)"
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\string_builder.h(160,53): warning 942: missing return statement at end of non-void function "System::Text::StringBuilder::operator<<(double)"
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\string_builder.h(161,51): warning 942: missing return statement at end of non-void function "System::Text::StringBuilder::operator<<(long)"
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\string_builder.h(162,64): warning 942: missing return statement at end of non-void function "System::Text::StringBuilder::operator<<(double *)"
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\string_builder.h(163,61): warning 942: missing return statement at end of non-void function "System::Text::StringBuilder::operator<<(int *)"
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\string_builder.h(164,62): warning 942: missing return statement at end of non-void function "System::Text::StringBuilder::operator<<(char *)"
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\string_builder.h(165,63): warning 942: missing return statement at end of non-void function "System::Text::StringBuilder::operator<<(float *)"
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\string_builder.h(169,3): warning 942: missing return statement at end of non-void function "System::Text::StringBuilder::operator<<(char)"
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\string_builder.h(176,3): warning 942: missing return statement at end of non-void function "System::Text::StringBuilder::operator<<(const char *)"
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(9,7): warning 1700: class "System::Exception" has virtual functions but non-virtual destructor
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(33,10): warning 2623: conversion from a string literal to "char *" is deprecated
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(37,8): warning 68: integer conversion resulted in a change of sign
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(37,35): warning 112: statement is unreachable
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(38,8): warning 68: integer conversion resulted in a change of sign
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(38,37): warning 112: statement is unreachable
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(39,8): warning 68: integer conversion resulted in a change of sign
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(39,37): warning 112: statement is unreachable
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(40,8): warning 68: integer conversion resulted in a change of sign
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(40,36): warning 112: statement is unreachable
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(41,8): warning 68: integer conversion resulted in a change of sign
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(41,36): warning 112: statement is unreachable
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(42,8): warning 68: integer conversion resulted in a change of sign
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(42,36): warning 112: statement is unreachable
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(43,8): warning 68: integer conversion resulted in a change of sign
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(43,37): warning 112: statement is unreachable
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(44,8): warning 68: integer conversion resulted in a change of sign
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(44,37): warning 112: statement is unreachable
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(45,8): warning 68: integer conversion resulted in a change of sign
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(45,37): warning 112: statement is unreachable
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(46,8): warning 68: integer conversion resulted in a change of sign
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(46,37): warning 112: statement is unreachable
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(47,8): warning 68: integer conversion resulted in a change of sign
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(47,36): warning 112: statement is unreachable
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(48,8): warning 68: integer conversion resulted in a change of sign
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(48,36): warning 112: statement is unreachable
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(49,8): warning 68: integer conversion resulted in a change of sign
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(49,37): warning 112: statement is unreachable
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(50,8): warning 68: integer conversion resulted in a change of sign
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(50,36): warning 112: statement is unreachable
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(51,8): warning 68: integer conversion resulted in a change of sign
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(51,37): warning 112: statement is unreachable
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(52,8): warning 68: integer conversion resulted in a change of sign
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(52,36): warning 112: statement is unreachable
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(53,8): warning 68: integer conversion resulted in a change of sign
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(53,34): warning 112: statement is unreachable
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(54,8): warning 68: integer conversion resulted in a change of sign
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(54,38): warning 112: statement is unreachable
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(55,8): warning 68: integer conversion resulted in a change of sign
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(55,37): warning 112: statement is unreachable
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(56,8): warning 68: integer conversion resulted in a change of sign
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(56,38): warning 112: statement is unreachable
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(57,8): warning 68: integer conversion resulted in a change of sign
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(57,36): warning 112: statement is unreachable
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(58,8): warning 68: integer conversion resulted in a change of sign
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(58,36): warning 112: statement is unreachable
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(59,8): warning 68: integer conversion resulted in a change of sign
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(59,38): warning 112: statement is unreachable
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(60,8): warning 68: integer conversion resulted in a change of sign
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(60,43): warning 112: statement is unreachable
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(61,8): warning 68: integer conversion resulted in a change of sign
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(61,43): warning 112: statement is unreachable
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(62,8): warning 68: integer conversion resulted in a change of sign
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(62,43): warning 112: statement is unreachable
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(63,8): warning 68: integer conversion resulted in a change of sign
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(63,43): warning 112: statement is unreachable
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(64,8): warning 68: integer conversion resulted in a change of sign
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(64,43): warning 112: statement is unreachable
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(65,8): warning 68: integer conversion resulted in a change of sign
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(65,43): warning 112: statement is unreachable
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(66,8): warning 68: integer conversion resulted in a change of sign
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(66,43): warning 112: statement is unreachable
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(67,8): warning 68: integer conversion resulted in a change of sign
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(67,43): warning 112: statement is unreachable
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(68,8): warning 68: integer conversion resulted in a change of sign
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(68,43): warning 112: statement is unreachable
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(69,8): warning 68: integer conversion resulted in a change of sign
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(69,43): warning 112: statement is unreachable
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(70,24): warning 112: statement is unreachable
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(74,8): warning 68: integer conversion resulted in a change of sign
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(74,63): warning 112: statement is unreachable
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(75,8): warning 68: integer conversion resulted in a change of sign
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(75,62): warning 112: statement is unreachable
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(76,8): warning 68: integer conversion resulted in a change of sign
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(76,67): warning 112: statement is unreachable
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(77,8): warning 68: integer conversion resulted in a change of sign
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(77,71): warning 112: statement is unreachable
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(78,63): warning 112: statement is unreachable
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(79,79): warning 112: statement is unreachable
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(80,78): warning 112: statement is unreachable
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(81,74): warning 112: statement is unreachable
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(82,65): warning 112: statement is unreachable
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(83,97): warning 112: statement is unreachable
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(84,70): warning 112: statement is unreachable
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(85,70): warning 112: statement is unreachable
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(86,69): warning 112: statement is unreachable
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(87,55): warning 112: statement is unreachable
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(88,52): warning 112: statement is unreachable
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(89,54): warning 112: statement is unreachable
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(90,28): warning 112: statement is unreachable
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(148,1): warning 1700: class "System::NotImplementedException" has virtual functions but non-virtual destructor
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(148,1): warning 2623: conversion from a string literal to "char *" is deprecated
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(149,1): warning 1700: class "System::NullReferenceException" has virtual functions but non-virtual destructor
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(149,1): warning 2623: conversion from a string literal to "char *" is deprecated
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(150,1): warning 1700: class "System::ArgumentNullException" has virtual functions but non-virtual destructor
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(150,1): warning 2623: conversion from a string literal to "char *" is deprecated
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(151,1): warning 1700: class "System::InvalidArgumentException" has virtual functions but non-virtual destructor
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(151,1): warning 2623: conversion from a string literal to "char *" is deprecated
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(152,1): warning 1700: class "System::ArgumentOutOfRangeException" has virtual functions but non-virtual destructor
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(152,1): warning 2623: conversion from a string literal to "char *" is deprecated
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(153,1): warning 1700: class "System::IndexOutOfRangeException" has virtual functions but non-virtual destructor
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(153,1): warning 2623: conversion from a string literal to "char *" is deprecated
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(154,1): warning 1700: class "System::FormatException" has virtual functions but non-virtual destructor
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(154,1): warning 2623: conversion from a string literal to "char *" is deprecated
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(155,1): warning 1700: class "System::DivideByZeroException" has virtual functions but non-virtual destructor
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(155,1): warning 2623: conversion from a string literal to "char *" is deprecated
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(156,1): warning 1700: class "System::OverflowException" has virtual functions but non-virtual destructor
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(156,1): warning 2623: conversion from a string literal to "char *" is deprecated
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(157,1): warning 1700: class "System::SystemException" has virtual functions but non-virtual destructor
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(157,1): warning 2623: conversion from a string literal to "char *" is deprecated
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(158,1): warning 1700: class "System::OutOfMemoryException" has virtual functions but non-virtual destructor
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(158,1): warning 2623: conversion from a string literal to "char *" is deprecated
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(159,1): warning 1700: class "System::InvalidOperationException" has virtual functions but non-virtual destructor
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(159,1): warning 2623: conversion from a string literal to "char *" is deprecated
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(160,1): warning 1700: class "System::TimeoutException" has virtual functions but non-virtual destructor
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(160,1): warning 2623: conversion from a string literal to "char *" is deprecated
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(161,1): warning 1700: class "System::StackOverflowException" has virtual functions but non-virtual destructor
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(161,1): warning 2623: conversion from a string literal to "char *" is deprecated
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(162,1): warning 1700: class "System::ArgumentException" has virtual functions but non-virtual destructor
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(162,1): warning 2623: conversion from a string literal to "char *" is deprecated
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(163,1): warning 1700: class "System::ArithmeticException" has virtual functions but non-virtual destructor
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(163,1): warning 2623: conversion from a string literal to "char *" is deprecated
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(164,1): warning 1700: class "System::OperationCanceledException" has virtual functions but non-virtual destructor
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(164,1): warning 2623: conversion from a string literal to "char *" is deprecated
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(165,1): warning 1700: class "System::UnsupportedException" has virtual functions but non-virtual destructor
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(165,1): warning 2623: conversion from a string literal to "char *" is deprecated
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(166,1): warning 1700: class "System::ObjectDisposedException" has virtual functions but non-virtual destructor
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\exception.h(166,1): warning 2623: conversion from a string literal to "char *" is deprecated
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\math.h(25,9): warning 187: pointless comparison of unsigned integer with zero
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\math.h(29,9): warning 187: pointless comparison of unsigned integer with zero
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\math.h(30,9): warning 187: pointless comparison of unsigned integer with zero
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\math.h(33,9): warning 187: pointless comparison of unsigned integer with zero
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\math.h(251,11): warning 432: returning reference to local temporary
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\math.h(255,11): warning 432: returning reference to local temporary
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\math.h(275,11): warning 432: returning reference to local temporary
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\math.h(284,11): warning 432: returning reference to local temporary
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\math.h(288,11): warning 432: returning reference to local temporary
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\math.h(291,11): warning 432: returning reference to local temporary
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\math.h(294,11): warning 432: returning reference to local temporary
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\math.h(325,11): warning 432: returning reference to local temporary
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\math.h(329,11): warning 432: returning reference to local temporary
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\math.h(344,12): warning 175: expression has no effect
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\math.h(344,12): warning 175: expression has no effect
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\math.h(348,12): warning 175: expression has no effect
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\math.h(348,12): warning 175: expression has no effect
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\math.h(358,4): warning 112: statement is unreachable
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\math.h(358,4): warning 175: expression has no effect
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\math.h(402,3): warning 376: declaration requires a typedef name
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\library.h(290,10): warning 838: returning reference to local variable
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\library.h(333,12): warning 2520: invalid narrowing conversion from "unsigned short" to "unsigned char"
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\library.h(333,27): warning 2520: invalid narrowing conversion from "unsigned short" to "unsigned char"
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\library.h(333,44): warning 2520: invalid narrowing conversion from "unsigned short" to "unsigned char"
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\library.h(333,61): warning 2520: invalid narrowing conversion from "unsigned short" to "unsigned char"
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\library.h(333,75): warning 2520: invalid narrowing conversion from "unsigned short" to "unsigned char"
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\library.h(333,91): warning 2520: invalid narrowing conversion from "unsigned short" to "short"
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\library.h(437,13): warning 2520: invalid narrowing conversion from "signed long long" to "unsigned long long"
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\threading.h(69,5): warning 68: integer conversion resulted in a change of sign
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\threading.h(69,5): warning 2623: conversion from a string literal to "char *" is deprecated
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\threading.h(69,5): warning 1322: taking the address of a temporary
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\threading.h(71,12): warning 68: integer conversion resulted in a change of sign
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\threading.h(79,5): warning 68: integer conversion resulted in a change of sign
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\threading.h(79,5): warning 2623: conversion from a string literal to "char *" is deprecated
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\threading.h(79,5): warning 1322: taking the address of a temporary
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\threading.h(140,18): warning 1067: conversion from integer to smaller pointer
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\vectors.h(93,9): warning 432: returning reference to local temporary
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\vectors.h(96,9): warning 432: returning reference to local temporary
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\vectors.h(99,9): warning 432: returning reference to local temporary
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\vectors.h(130,9): warning 432: returning reference to local temporary
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\vectors.h(134,9): warning 432: returning reference to local temporary
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\vectors.h(214,1): warning 376: declaration requires a typedef name
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\keyboard.h(18,1): warning 942: missing return statement at end of non-void function "Keyboard::InitializeKeyboard_s"
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\keyboard.h(51,47): warning 1628: argument of type "int (*)(Keyboard::cInput *)" is incompatible with parameter (1 of take) of type "void *"
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\keyboard.h(51,73): warning 1628: argument of type "int (*)(...)" is incompatible with parameter (1 of take) of type "void *"
+  
+.\game\game.h(86,18): warning 429: qualified name is not allowed in member declaration
+  
+.\game\game.h(91,18): warning 429: qualified name is not allowed in member declaration
+  
+.\game\game.h(96,18): warning 429: qualified name is not allowed in member declaration
+  
+.\game\game.h(101,18): warning 429: qualified name is not allowed in member declaration
+  
+.\game\game.h(106,14): warning 429: qualified name is not allowed in member declaration
+  
+.\game\game.h(112,14): warning 429: qualified name is not allowed in member declaration
+  
+.\game\console_ui_controller.hpp(115): warning 942: missing return statement at end of non-void function "ConsoleUIController::checkGetSceneInstanceExRealLegitThisTimeCertifiedExtensionMethod"
+  
+.\game\keyboard_controller.h(111,3): warning 112: statement is unreachable
+  
+.\game\keyboard_controller.h(112,3): warning 112: statement is unreachable
+  
+.\game\keyboard_controller.h(113,3): warning 112: statement is unreachable
+  
+.\game\keyboard_controller.h(114,3): warning 112: statement is unreachable
+  
+.\game\keyboard_controller.h(115,3): warning 69: integer conversion resulted in truncation
+  
+.\game\keyboard_controller.h(115,3): warning 112: statement is unreachable
+  
+.\game\keyboard_controller.h(116,3): warning 69: integer conversion resulted in truncation
+  
+.\game\keyboard_controller.h(116,3): warning 112: statement is unreachable
+  
+.\game\keyboard_controller.h(117,3): warning 69: integer conversion resulted in truncation
+  
+.\game\keyboard_controller.h(117,3): warning 112: statement is unreachable
+  
+.\game\keyboard_controller.h(118,3): warning 112: statement is unreachable
+  
+.\game\keyboard_controller.h(119,3): warning 112: statement is unreachable
+  
+.\game\keyboard_controller.h(120,3): warning 112: statement is unreachable
+  
+.\game\keyboard_controller.h(121,3): warning 112: statement is unreachable
+  
+.\game\keyboard_controller.h(122,3): warning 112: statement is unreachable
+  
+.\game\keyboard_controller.h(123,3): warning 112: statement is unreachable
+  
+.\game\keyboard_controller.h(124,3): warning 112: statement is unreachable
+  
+.\game\keyboard_controller.h(125,3): warning 112: statement is unreachable
+  
+.\game\keyboard_controller.h(126,3): warning 112: statement is unreachable
+  
+.\game\keyboard_controller.h(127,3): warning 112: statement is unreachable
+  
+.\game\keyboard_controller.h(128,3): warning 112: statement is unreachable
+  
+.\game\keyboard_controller.h(129,3): warning 112: statement is unreachable
+  
+.\game\keyboard_controller.h(130,3): warning 112: statement is unreachable
+  
+.\game\keyboard_controller.h(131,3): warning 112: statement is unreachable
+  
+.\game\keyboard_controller.h(132,3): warning 112: statement is unreachable
+  
+.\game\keyboard_controller.h(133,3): warning 112: statement is unreachable
+  
+.\game\keyboard_controller.h(134,3): warning 112: statement is unreachable
+  
+.\game\keyboard_controller.h(135,3): warning 112: statement is unreachable
+  
+.\game\keyboard_controller.h(136,3): warning 112: statement is unreachable
+  
+.\game\keyboard_controller.h(137,3): warning 112: statement is unreachable
+  
+.\game\keyboard_controller.h(138,3): warning 112: statement is unreachable
+  
+.\game\keyboard_controller.h(143,1): warning 942: missing return statement at end of non-void function "Keys::get"
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\managed_input_feature.h(89,12): warning 187: pointless comparison of unsigned integer with zero
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\managed_input_feature.h(99,12): warning 68: integer conversion resulted in a change of sign
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\managed_input_feature.h(112,13): warning 187: pointless comparison of unsigned integer with zero
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\managed_input_feature.h(122,10): warning 68: integer conversion resulted in a change of sign
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\managed_input_feature.h(128,11): warning 187: pointless comparison of unsigned integer with zero
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\managed_input_feature.h(132,22): warning 2520: invalid narrowing conversion from "signed char" to "float"
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\managed_input_feature.h(132,40): warning 2520: invalid narrowing conversion from "signed char" to "float"
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\managed_input_feature.h(161,11): warning 187: pointless comparison of unsigned integer with zero
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\managed_input_feature.h(183,11): warning 187: pointless comparison of unsigned integer with zero
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\managed_input_feature.h(201,10): warning 187: pointless comparison of unsigned integer with zero
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\fui.h(44,1): warning 942: missing return statement at end of non-void function "FJ_FuiNode::setScaleY"
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\fui.h(49,1): warning 942: missing return statement at end of non-void function "FJ_FuiNode::setScaleX"
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\framestat.h(31,43): warning 1628: argument of type "unsigned long long" is incompatible with parameter (1 of toFloat) of type "int"
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\minecraft\MobEffectInstance.h(56,18): warning 429: qualified name is not allowed in member declaration
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\minecraft\MobEffectInstance.h(57,5): warning 429: qualified name is not allowed in member declaration
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\minecraft\MobEffectInstance.h(58,6): warning 429: qualified name is not allowed in member declaration
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\minecraft\MobEffectInstance.h(59,6): warning 429: qualified name is not allowed in member declaration
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\minecraft\MobEffectInstance.h(60,6): warning 429: qualified name is not allowed in member declaration
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\minecraft\MobEffectInstance.h(61,6): warning 429: qualified name is not allowed in member declaration
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\minecraft\MobEffectInstance.h(62,6): warning 429: qualified name is not allowed in member declaration
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\minecraft\MobEffectInstance.h(63,5): warning 429: qualified name is not allowed in member declaration
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\minecraft\MobEffectInstance.h(65,5): warning 429: qualified name is not allowed in member declaration
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\minecraft\MobEffectInstance.h(66,5): warning 429: qualified name is not allowed in member declaration
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\minecraft\MobEffectInstance.h(67,5): warning 429: qualified name is not allowed in member declaration
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\minecraft\MobEffectInstance.h(63,126): warning 942: missing return statement at end of non-void function "MobEffectInstance::tick"
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\minecraft\MobEffectInstance.h(66,99): warning 942: missing return statement at end of non-void function "MobEffectInstance::update"
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\minecraft\MobEffectInstance.h(67,91): warning 942: missing return statement at end of non-void function "MobEffectInstance::save"
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\minecraft\Block.h(26,13): warning 429: qualified name is not allowed in member declaration
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\minecraft\Block.h(45,5): warning 429: qualified name is not allowed in member declaration
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\minecraft\Block.h(50,5): warning 429: qualified name is not allowed in member declaration
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\minecraft\Block.h(55,5): warning 429: qualified name is not allowed in member declaration
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\minecraft\Block.h(60,5): warning 429: qualified name is not allowed in member declaration
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\minecraft\Block.h(65,5): warning 429: qualified name is not allowed in member declaration
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\minecraft\Block.h(70,5): warning 429: qualified name is not allowed in member declaration
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\minecraft\Inventory.h(6,3): warning 1111: unknown attribute "error"
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\minecraft\MultiplayerLocalPlayer.h(165,5): warning 429: qualified name is not allowed in member declaration
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\minecraft\MultiplayerLocalPlayer.h(166,5): warning 429: qualified name is not allowed in member declaration
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\minecraft\MultiplayerLocalPlayer.h(167,5): warning 429: qualified name is not allowed in member declaration
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\minecraft\MultiplayerLocalPlayer.h(169,5): warning 429: qualified name is not allowed in member declaration
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\minecraft\MultiplayerLocalPlayer.h(174,5): warning 429: qualified name is not allowed in member declaration
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\minecraft\MultiplayerLocalPlayer.h(175,5): warning 429: qualified name is not allowed in member declaration
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\minecraft\MultiplayerLocalPlayer.h(176,5): warning 429: qualified name is not allowed in member declaration
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\minecraft\MultiplayerLocalPlayer.h(177,5): warning 429: qualified name is not allowed in member declaration
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\minecraft\MultiplayerLocalPlayer.h(178,5): warning 429: qualified name is not allowed in member declaration
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\minecraft\MultiplayerLocalPlayer.h(179,5): warning 429: qualified name is not allowed in member declaration
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\minecraft\MultiplayerLocalPlayer.h(180,5): warning 429: qualified name is not allowed in member declaration
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\minecraft\MultiplayerLocalPlayer.h(181,5): warning 429: qualified name is not allowed in member declaration
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\minecraft\MultiplayerLocalPlayer.h(182,5): warning 429: qualified name is not allowed in member declaration
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\minecraft\MultiplayerLocalPlayer.h(183,5): warning 429: qualified name is not allowed in member declaration
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\minecraft\MultiplayerLocalPlayer.h(184,5): warning 429: qualified name is not allowed in member declaration
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\minecraft\MultiplayerLocalPlayer.h(185,5): warning 429: qualified name is not allowed in member declaration
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\minecraft\MultiplayerLocalPlayer.h(186,5): warning 429: qualified name is not allowed in member declaration
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\minecraft\MultiplayerLocalPlayer.h(187,5): warning 429: qualified name is not allowed in member declaration
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\minecraft\MultiplayerLocalPlayer.h(188,5): warning 429: qualified name is not allowed in member declaration
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\minecraft\MultiplayerLocalPlayer.h(189,5): warning 429: qualified name is not allowed in member declaration
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\minecraft\MultiplayerLocalPlayer.h(190,5): warning 429: qualified name is not allowed in member declaration
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\minecraft\MultiplayerLocalPlayer.h(191,5): warning 429: qualified name is not allowed in member declaration
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\minecraft\MultiplayerLocalPlayer.h(192,5): warning 429: qualified name is not allowed in member declaration
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\minecraft\MultiplayerLocalPlayer.h(193,5): warning 429: qualified name is not allowed in member declaration
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\minecraft\MultiplayerLocalPlayer.h(194,5): warning 429: qualified name is not allowed in member declaration
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\minecraft\MultiplayerLocalPlayer.h(165,81): warning 942: missing return statement at end of non-void function "MultiplayerLocalPlayer::GetLevel"
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\minecraft\MultiplayerLocalPlayer.h(166,89): warning 942: missing return statement at end of non-void function "MultiplayerLocalPlayer::heal"
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\minecraft\MultiplayerLocalPlayer.h(167,92): warning 942: missing return statement at end of non-void function "MultiplayerLocalPlayer::fjResetBounceHeight"
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\minecraft\MultiplayerLocalPlayer.h(174,128): warning 942: missing return statement at end of non-void function "MultiplayerLocalPlayer::reallyDrop(boost::shared_ptr__tm__13_10ItemEntity)"
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\minecraft\MultiplayerLocalPlayer.h(175,80): warning 942: missing return statement at end of non-void function "MultiplayerLocalPlayer::respawn"
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\minecraft\MultiplayerLocalPlayer.h(176,125): warning 942: missing return statement at end of non-void function "MultiplayerLocalPlayer::actuallyHurt"
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\minecraft\MultiplayerLocalPlayer.h(177,90): warning 942: missing return statement at end of non-void function "MultiplayerLocalPlayer::completeUsingItem"
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\minecraft\MultiplayerLocalPlayer.h(178,111): warning 942: missing return statement at end of non-void function "MultiplayerLocalPlayer::onEffectAdded"
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\minecraft\MultiplayerLocalPlayer.h(179,126): warning 942: missing return statement at end of non-void function "MultiplayerLocalPlayer::onEffectUpdated"
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\minecraft\MultiplayerLocalPlayer.h(180,113): warning 942: missing return statement at end of non-void function "MultiplayerLocalPlayer::onEffectRemoved"
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\minecraft\MultiplayerLocalPlayer.h(181,97): warning 942: missing return statement at end of non-void function "MultiplayerLocalPlayer::clientSideCloseContainer"
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\minecraft\MultiplayerLocalPlayer.h(182,87): warning 942: missing return statement at end of non-void function "MultiplayerLocalPlayer::closeContainer"
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\minecraft\MultiplayerLocalPlayer.h(183,147): warning 942: missing return statement at end of non-void function "MultiplayerLocalPlayer::hurtTo"
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\minecraft\MultiplayerLocalPlayer.h(184,128): warning 942: missing return statement at end of non-void function "MultiplayerLocalPlayer::awardStat"
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\minecraft\MultiplayerLocalPlayer.h(185,138): warning 942: missing return statement at end of non-void function "MultiplayerLocalPlayer::awardStatFromServer"
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\minecraft\MultiplayerLocalPlayer.h(186,86): warning 942: missing return statement at end of non-void function "MultiplayerLocalPlayer::isLocalPlayer"
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\minecraft\MultiplayerLocalPlayer.h(187,91): warning 942: missing return statement at end of non-void function "MultiplayerLocalPlayer::onSlimeBlockBounce"
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\minecraft\MultiplayerLocalPlayer.h(188,87): warning 942: missing return statement at end of non-void function "MultiplayerLocalPlayer::sendRidingJump"
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\minecraft\MultiplayerLocalPlayer.h(189,90): warning 942: missing return statement at end of non-void function "MultiplayerLocalPlayer::sendOpenInventory"
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\minecraft\MultiplayerLocalPlayer.h(190,136): warning 942: missing return statement at end of non-void function "MultiplayerLocalPlayer::startRiding"
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\minecraft\MultiplayerLocalPlayer.h(191,85): warning 942: missing return statement at end of non-void function "MultiplayerLocalPlayer::StopSleeping"
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\minecraft\MultiplayerLocalPlayer.h(192,109): warning 942: missing return statement at end of non-void function "MultiplayerLocalPlayer::setAndBroadcastCustomSkin"
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\minecraft\MultiplayerLocalPlayer.h(193,109): warning 942: missing return statement at end of non-void function "MultiplayerLocalPlayer::setAndBroadcastCustomCape"
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\minecraft\MultiplayerLocalPlayer.h(194,164): warning 942: missing return statement at end of non-void function "MultiplayerLocalPlayer::PlaySound"
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\minecraft/MultiPlayerGameMode.h(39,69): warning 942: missing return statement at end of non-void function "MultiPlayerGameMode::SpectateSoundEnabled"
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\minecraft\MultiPlayerGameMode.h(40,64): warning 942: missing return statement at end of non-void function "MultiPlayerGameMode::StartSpectating"
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\minecraft.hpp(558,12): warning 2520: invalid narrowing conversion from "int" to "float"
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\minecraft.hpp(558,16): warning 2520: invalid narrowing conversion from "int" to "float"
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\minecraft.hpp(558,20): warning 2520: invalid narrowing conversion from "int" to "float"
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\patched_input_tick.h(302,3): warning 176: subscript out of range
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\patched_input_tick.h(472,1): warning 942: missing return statement at end of non-void function "PatchedInputTick::__tick_containers__"
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\patched_input_tick.h(473,1): warning 942: missing return statement at end of non-void function "PatchedInputTick::__tick_input_manager__"
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\patched_input_tick.h(484,8): warning 178: variable "fac" was declared but never referenced
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\patched_input_tick.h(503,46): warning 1628: argument of type "any (*)(int)" is incompatible with parameter (1 of take) of type "void *"
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\patched_input_tick.h(503,70): warning 1628: argument of type "int (*)(...)" is incompatible with parameter (1 of take) of type "void *"
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\patched_input_tick.h(504,43): warning 1628: argument of type "int (*)(int, int, int)" is incompatible with parameter (1 of take) of type "void *"
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\patched_input_tick.h(504,65): warning 1628: argument of type "int (*)(...)" is incompatible with parameter (1 of take) of type "void *"
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\patched_scene_navigation.h(6,1): warning 942: missing return statement at end of non-void function "PatchedSceneNavigation::__gotFocus__"
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\patched_scene_navigation.h(22,44): warning 1628: argument of type "int (*)(int, int, int)" is incompatible with parameter (1 of take) of type "void *"
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\patched_scene_navigation.h(22,69): warning 1628: argument of type "int (*)(int, int, int)" is incompatible with parameter (1 of take) of type "void *"
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\tex.h(19,57): warning 68: integer conversion resulted in a change of sign
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\tex.h(25,23): warning 2624: conversion from a string literal to pointer-to-character (non-const) is deprecated
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\tex.h(27,63): warning 68: integer conversion resulted in a change of sign
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\patched_fullscreen.h(22,1): warning 942: missing return statement at end of non-void function "PatchedFullscreen::sFullscreen"
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\patched_fullscreen.h(22,1): warning 1628: argument of type "int (*)(int)" is incompatible with parameter (1 of take) of type "void *"
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\patched_fullscreen.h(22,1): warning 1628: argument of type "int (*)(...)" is incompatible with parameter (1 of take) of type "void *"
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\patched_input.h(12,1): warning 942: missing return statement at end of non-void function "PatchedInput::Input_StubSpace"
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\patched_input.h(29,36): warning 1628: argument of type "int (*)(int, OnyxCellPadData *)" is incompatible with parameter (1 of take) of type "void *"
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\patched_input.h(29,52): warning 1628: argument of type "int (*)(...)" is incompatible with parameter (1 of take) of type "void *"
+  
+.\game\PatchedHud.h(8,1): warning 942: missing return statement at end of non-void function "PatchedHud::__hud__"
+  
+.\game\PatchedHud.h(17,36): warning 1628: argument of type "int (*)(int)" is incompatible with parameter (1 of take) of type "void *"
+  
+.\game\PatchedHud.h(17,50): warning 1628: argument of type "int (*)(int)" is incompatible with parameter (1 of take) of type "void *"
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\safer_init.hpp(23,3): warning 1111: unknown attribute "nodiscard"
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\game.hpp(21,75): warning 942: missing return statement at end of non-void function "Minecraft::app::GetMiniGame"
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\game.hpp(22,87): warning 942: missing return statement at end of non-void function "Minecraft::app::GetClientMasterGameMode"
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\game.hpp(23,67): warning 942: missing return statement at end of non-void function "Minecraft::app::run"
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\game.hpp(24,79): warning 942: missing return statement at end of non-void function "Minecraft::app::getCameraEntity"
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\game.hpp(25,98): warning 942: missing return statement at end of non-void function "Minecraft::app::createPrimaryLocalPlayer"
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\game.hpp(26,91): warning 942: missing return statement at end of non-void function "Minecraft::app::setLocalPlayerIdx"
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\game.hpp(27,81): warning 942: missing return statement at end of non-void function "Minecraft::app::getLocalPlayerIdx"
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\game.hpp(28,82): warning 942: missing return statement at end of non-void function "Minecraft::app::tickAllConnections"
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\game.hpp(29,74): warning 942: missing return statement at end of non-void function "Minecraft::app::run_middle"
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\game.hpp(30,86): warning 942: missing return statement at end of non-void function "Minecraft::app::prepareLevel"
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\game.hpp(31,78): warning 942: missing return statement at end of non-void function "Minecraft::app::getBlockColors"
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\game.hpp(32,77): warning 942: missing return statement at end of non-void function "Minecraft::app::getItemColors"
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\game.hpp(33,94): warning 942: missing return statement at end of non-void function "Minecraft::app::forceLeaderboardSave"
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\game.hpp(34,120): warning 942: missing return statement at end of non-void function "Minecraft::app::addPendingClientTextureRequest"
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\game.hpp(35,117): warning 942: missing return statement at end of non-void function "Minecraft::app::handleClientTextureReceived"
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\game.hpp(36,82): warning 942: missing return statement at end of non-void function "Minecraft::app::isUsingDefaultSkin"
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\game.hpp(37,87): warning 942: missing return statement at end of non-void function "Minecraft::app::getCurrentTexturePackId"
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\game.hpp(38,80): warning 942: missing return statement at end of non-void function "Minecraft::app::getMaterialTable"
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\game.hpp(39,83): warning 942: missing return statement at end of non-void function "Minecraft::app::getStructureManager"
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\game.hpp(40,83): warning 942: missing return statement at end of non-void function "Minecraft::app::fjReloadTexturePack"
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\game.hpp(41,96): warning 942: missing return statement at end of non-void function "Minecraft::app::GetPlayerByPlayerIndex"
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\game.hpp(42,79): warning 942: missing return statement at end of non-void function "Minecraft::app::GetSpectateMode"
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\game.hpp(43,81): warning 942: missing return statement at end of non-void function "Minecraft::app::GetSpectateEntity"
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\game.hpp(44,109): warning 942: missing return statement at end of non-void function "Minecraft::app::SetupMiniGameInstance"
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\game.hpp(45,80): warning 942: missing return statement at end of non-void function "Minecraft::app::GetFirstMiniGame"
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\game.hpp(46,83): warning 942: missing return statement at end of non-void function "Minecraft::app::showOnlyReducedInfo"
+  
+C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\InputPort\game\game.hpp(47,82): warning 942: missing return statement at end of non-void function "Minecraft::app::GetGhostController"
+  
+C:\Users\debug\Documents\GitHub\PS3_CELL_UTIL\System.h(445,93): warning 942: missing return statement at end of non-void function "sys::snprintf(char *, sys::size_t, const char *, args...)"
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\raw_tcsb.h(149,18): warning 187: pointless comparison of unsigned integer with zero
+            C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\raw_tcsb.h(39266,34): detected during instantiation of "std::size_t tcsb::CStringBuilder::add_integer(IntType) [with IntType=std::uint8_t]" at line 247
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\raw_tcsb.h(149,18): warning 187: pointless comparison of unsigned integer with zero
+            C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\raw_tcsb.h(39270,38): detected during instantiation of "std::size_t tcsb::CStringBuilder::add_integer(IntType) [with IntType=std::uint16_t]" at line 251
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\raw_tcsb.h(149,18): warning 187: pointless comparison of unsigned integer with zero
+            C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\raw_tcsb.h(39272,38): detected during instantiation of "std::size_t tcsb::CStringBuilder::add_integer(IntType) [with IntType=std::uint32_t]" at line 253
+  
+C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\raw_tcsb.h(149,18): warning 187: pointless comparison of unsigned integer with zero
+            C:\Users\debug\source\repos\ppu_keyboard_test\ppu_keyboard_test\include\raw_tcsb.h(39274,38): detected during instantiation of "std::size_t tcsb::CStringBuilder::add_integer(IntType) [with IntType=std::uint64_t]" at line 255
+  
+C:\Users\debug\Documents\GitHub\PS3_CELL_UTIL\System.h(319,16): warning 187: pointless comparison of unsigned integer with zero
+  
+C:\Users\debug\Documents\GitHub\PS3_CELL_UTIL\System.h(1274,18): warning 2520: invalid narrowing conversion from "long long" to "int"
+  
+  InputPort.vcxproj -> C:\Users\debug\Documents\GitHub\onyx_dreidel\InputPort\PS3_Debug\InputPort.sprx
+  Cannot find the expected PRX Stub Library file: cellPrx_InputPort_stub.a
